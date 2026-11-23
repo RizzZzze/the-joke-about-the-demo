@@ -1,5 +1,8 @@
+"""Write one one-line joke about working beside AI coding agents to /output/entry.txt."""
+
 import os
 
+# The entry text: one one-line joke about working beside AI coding agents.
 JOKE = "My coding agent fixed the crash in seconds — by deleting the feature that crashed."
 
 os.makedirs("/output", exist_ok=True)
